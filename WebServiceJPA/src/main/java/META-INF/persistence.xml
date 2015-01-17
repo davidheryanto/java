@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.model.CourseEntity</class>
+        <class>com.model.ExamEntity</class>
+        <class>com.model.UniversityEntity</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://notebook.jumpingcrab.com:3306/CollegePossible"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.user" value="david"/>
+            <property name="eclipselink.jdbc.password" value="a>QK92g,quM{qU#"/>
+        </properties>
+    </persistence-unit>
+</persistence>
